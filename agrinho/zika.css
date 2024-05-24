@@ -1,13 +1,39 @@
 body{
     background-color: rgb(217, 243, 209);
+    background-image:url(./imagens/credito-rural-destaque.jpg);
+    background-size: 100%;
 }
 header img{
     height: 100%;
     width:100px;
+    margin-right: 25px;
+    margin-left: 40px;
     
 }
-.cab{
+.cabecario{
     border: solid 5px black;
     border-radius: 10px;
-    background: linear-gradient(rgb(164, 223, 172),rgb(99, 153, 104));
+    background: linear-gradient(rgb(164, 223, 172),rgb(103, 158, 108));
+    margin-left: 5%;
+    margin-right:5%;
+}
+.prime{
+    border: solid 3px black;
+    border-radius:10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+.prime button{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 45px;
+    margin-right: 30px;
+    text-align: center;
+    border: solid 2px black;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+.cabecario h1{
+    font-family: Consolas;
 }
