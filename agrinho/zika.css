@@ -4,4 +4,10 @@ body{
 header img{
     height: 100%;
     width:100px;
+    
+}
+.cab{
+    border: solid 5px black;
+    border-radius: 10px;
+    background: linear-gradient(rgb(164, 223, 172),rgb(99, 153, 104));
 }
