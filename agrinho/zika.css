@@ -38,11 +38,29 @@ header img{
 .cabecario h1{
     font-family: Consolas;
 }
-.info1{
+.infoimg{
     background-color: rgb(173, 162, 162);
     margin-top: 35px;
-    margin-left: 10%;
-    margin-right: 40%;
     border: solid 2px black;
     border-radius: 15px;
 }
+.infoimg img{
+    height:500px;
+    width:500px;
+
+} 
+.info1{
+    background-color: rgb(173, 162, 162);
+    margin-top: 35px;
+    border: solid 2px black;
+    border-radius: 15px;
+}       
+.tabela{
+    margin-left: 15%;
+    margin-right: 15%;
+}  
+.divisao{
+    height:100px;
+    width:100px;
+} 
+
