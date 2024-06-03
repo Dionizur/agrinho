@@ -4,22 +4,21 @@ body{
     background-image:url(./imagens/depositphotos_57966441-stock-illustration-light-green-background-abstract-paper.jpg);
 }
 header img{
-    height: 100%;
-    width:100px;
+    height: 150px;
+    width:150px;
     margin-right: 25px;
     margin-left: 40px;
     
 }
 .cabecario{
-    border: solid 5px black;
     border-radius: 10px;
-    background: linear-gradient(rgb(148, 228, 158),rgb(77, 114, 80));
+    background: linear-gradient(rgb(154, 235, 165),rgb(84, 172, 93));
     margin-left: 5%;
     margin-right:5%;
     align-items: center;
 }
 .prime{
-    border: solid 3px black;
+    background-color: rgb(75, 112, 101)  ;
     border-radius:10px;
     align-items: center;
     margin-left: 10%;
@@ -27,8 +26,8 @@ header img{
     
 }
 .prime button{
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     margin-left: 140px;
     margin-right: 50px;
     text-align: center;
@@ -38,12 +37,15 @@ header img{
 }
 .cabecario h1{
     font-family: Consolas;
+    font-size: 60px;
 }
 .infoimg{
     background-color: rgb(173, 162, 162);
     margin-top: 35px;
     border: solid 2px black;
     border-radius: 15px;
+    height:550px;
+    width:700px;
     
 }
 .infoimg img{
@@ -53,7 +55,7 @@ header img{
 
 } 
 .info1{
-    background-color: rgb(173, 162, 162);
+    background-color: rgb(94, 180, 94);
     margin-top: 35px;
     border: solid 2px black;
     border-radius: 15px;
@@ -67,6 +69,8 @@ header img{
     width:100px;
 } 
 .textos{
-    color:rgb(46, 0, 0);
+    color:rgb(32, 39, 58);
+    line-height: 30px;
 }
+
 
