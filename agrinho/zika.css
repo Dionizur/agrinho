@@ -23,18 +23,10 @@ header img{
     align-items: center;
     margin-left: 10%;
     margin-right: 10%;
+    height:70px;
+    display:flex
     
     
-}
-.prime button{
-    margin-top: 15px;
-    margin-bottom: 15px;
-    margin-left: 140px;
-    margin-right: 50px;
-    text-align: center;
-    border: solid 2px black;
-    background-color: rgb(255, 255, 255);
-    border-radius: 10px;
 }
 .cabecario h1{
     font-family: Consolas;
@@ -73,8 +65,8 @@ header img{
     color:rgb(32, 39, 58);
     line-height: 30px;
 }
-button {
-    background-image: linear-gradient(144deg, #d1ac00, #647723 50%, #004643);
+.prime button {
+    background-image: linear-gradient(144deg, #a7eb80, #4c9445 50%, #004643);
     border: 0;
     border-radius: 8px;
     box-shadow: #d1ac00;
@@ -92,6 +84,7 @@ button {
     white-space: nowrap;
     cursor: pointer;
     transition: all 0.3s;
+    margin-left: 80px;
   }
   
   button:active,
@@ -117,13 +110,15 @@ button {
     transform: scale(0.9);
   }
   .prime th{
-    height:10px; 
-    width:5px    
-
+    margin-left: 10px;
+    margin-right: 10px;
+    height:70px; 
+    width:700px;
+    align-items: center ;
   }
-.prime test {
-    flex:50%
+  .prime table{
+    margin-left: 80px;
+    margin-right: 80px;
+  }
 
-}
-  
 
