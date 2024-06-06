@@ -35,7 +35,7 @@ header img{
 .infoimg{
     background-color: rgb(173, 162, 162);
     margin-top: 35px;
-    border: solid 2px black;
+    border: solid 3px rgb(75, 112, 101);
     border-radius: 15px;
     height:550px;
     width:700px;
@@ -50,7 +50,7 @@ header img{
 .info1{
     background: linear-gradient(rgb(154, 235, 165),rgb(84, 172, 93));
     margin-top: 35px;
-    border: solid 2px black;
+    border: solid 3px rgb(75, 112, 101);
     border-radius: 15px;
 }       
 .tabela{
