@@ -4,14 +4,14 @@ body{
     background-image:url(./imagens/depositphotos_57966441-stock-illustration-light-green-background-abstract-paper.jpg);
 }
 header img{
-    height: 150px;
-    width:150px;
+    height: 155px;
+    width:155px;
     margin-right: 25px;
     margin-left: 40px;
     
 }
 .cabecario{
-    background: linear-gradient(rgb(154, 235, 165),rgb(84, 172, 93));
+    background: linear-gradient(rgb(154, 235, 165),rgb(68, 146, 75));
     align-items: center;
 }
 .prime{
@@ -22,8 +22,6 @@ header img{
     margin-right: 10%;
     height:70px;
     display:flex
-    
-    
 }
 .cabecario h1{
     font-family: Consolas;
@@ -45,15 +43,14 @@ header img{
 
 } 
 .info1{
-    background: linear-gradient(rgb(154, 235, 165),rgb(84, 172, 93));
     margin-top: 35px;
     margin-left: 10px ;
-    border: solid 3px rgb(75, 112, 101);
     border-radius: 15px;
+    text-align: justify
 }       
 .tabela{
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
 }  
 .divisao{
     height:100px;
@@ -62,11 +59,14 @@ header img{
 .textos{
     color:rgb(32, 39, 58);
     line-height: 30px;
+    font-size: 22px ;
+    font-family: 'Times New Roman', Times, serif    ;
+    font-weight: 450;
 }
 .collapse button{
     height: 30px;
     width: 270px;
-    margin:10px;
+    margin:10px !important;
 }
 
 
