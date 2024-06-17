@@ -39,14 +39,15 @@ header img{
     
 }
 .infoimg img{
-    height:550px;
-    width:700px;
+    height:545px;
+    width:695px;
     border-radius: 15px;
 
 } 
 .info1{
     background: linear-gradient(rgb(154, 235, 165),rgb(84, 172, 93));
     margin-top: 35px;
+    margin-left: 10px ;
     border: solid 3px rgb(75, 112, 101);
     border-radius: 15px;
 }       
