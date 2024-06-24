@@ -1,7 +1,7 @@
 body{
     background-color: rgb(236, 252, 231);
     background-size: 100%;
-    background-image:url(./imagens/fundo.avif);
+    background-image:url(./imagens/depositphotos_57966441-stock-illustration-light-green-background-abstract-paper.jpg);
 }
 header img{
     height: 155px;
@@ -68,5 +68,14 @@ header img{
     width: 270px;
     margin:10px !important;
 }
+.cabecario_fml{
+    background: linear-gradient(rgb(154, 235, 165),rgb(68, 146, 75));
+    align-items: center;
+}
+.cabecario_fml h1{
+    font-family: Consolas;
+    font-size: 60px;
+}
 
+    
 
