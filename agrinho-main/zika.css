@@ -76,6 +76,16 @@ header img{
     font-family: Consolas;
     font-size: 60px;
 }
+.cabecario_cafe{
+    background: linear-gradient(rgb(154, 235, 165),rgb(68, 146, 75));
+    align-items: center;
+}
+.cabecario_cafe h1{
+    font-family: Consolas;
+    font-size: 80px;
+    letter-spacing: 8px
+}
+
 
     
 
