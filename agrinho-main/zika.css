@@ -85,7 +85,15 @@ header img{
     font-size: 80px;
     letter-spacing: 8px
 }
-
+.textos_st{
+    color:rgb(32, 39, 58);
+    line-height: 30px;
+    font-size: 22px ;
+    font-family: 'Times New Roman', Times, serif    ;
+    font-weight: 450;
+    margin-left: 10%;
+    margin-right: 10%;
+}
 
     
 
