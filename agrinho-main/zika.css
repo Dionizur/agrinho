@@ -36,12 +36,6 @@ header img{
     width:700px;
     
 }
-.infoimg img{
-    height:545px;
-    width:695px;
-    border-radius: 15px;
-
-} 
 .info1{
     margin-top: 35px;
     margin-left: 10px ;
@@ -224,7 +218,19 @@ ul {
     visibility: visible;
     opacity: 1;
 }
-  
+.infoimg_img_cafe{
+    background-color: rgb(173, 162, 162);
+    margin-top: 35px;
+    border: solid 3px rgb(75, 112, 101);
+    border-radius: 15px;
+    height:496px;
+    width:696px;
+}
+.infoimg_img_cafe img{
+    height:490px;
+    width:690px;
+    border-radius: 14px;
+}
 
     
 
