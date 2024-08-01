@@ -34,7 +34,11 @@ header img{
     border-radius: 15px;
     height:550px;
     width:700px;
-    
+}
+.infoimg img{
+    height:545px;
+    width:695px;
+    border-radius: 14px;
 }
 .info1{
     margin-top: 35px;
@@ -88,6 +92,10 @@ header img{
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 15px;
+}
+.textos_st ul{
+  margin: 10px;
+  line-height: 50px;
 }
 ul {
     list-style: none;
@@ -231,6 +239,20 @@ ul {
     width:690px;
     border-radius: 14px;
 }
-
+footer{
+  background-color: #727272;
+}
+footer h2{
+  margin-right: 20px;
+}
+.textos_ft{
+  color:rgb(32, 39, 58);
+    line-height: 30px;
+    font-size: 25px ;
+    font-weight: 450;
+    margin-left: 5%;
+    margin-right: 10%;
+    margin-top: 15px;
+}
     
 
