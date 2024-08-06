@@ -60,6 +60,7 @@ header img{
     font-size: 22px ;
     font-family: 'Times New Roman', Times, serif    ;
     font-weight: 450;
+    margin-bottom: 10px;
 }
 .collapse button{
     height: 30px;
@@ -91,7 +92,8 @@ header img{
     font-weight: 450;
     margin-left: 10%;
     margin-right: 10%;
-    margin-top: 15px;
+    margin-top: 20px;
+    
 }
 .textos_st ul{
   margin: 10px;
@@ -254,5 +256,30 @@ footer h2{
     margin-right: 10%;
     margin-top: 15px;
 }
-    
+.info_st{
+  color:rgb(32, 39, 58);
+    line-height: 30px;
+    font-size: 22px ;
+    font-family: 'Times New Roman', Times, serif    ;
+    font-weight: 450;
+    margin-bottom: 20px;
+}
+.tabela_passo img{
+  height:300px ;
+  width:600px;
+  border-radius:15px;
+  
+}
+.tabela_passo{
+  margin-left: 0%;
+  margin-right: 5%;
+}
 
+.infoimg_img_cafe2{
+  background-color: rgb(173, 162, 162);
+  margin-top: 35px;
+  border: solid 3px rgb(75, 112, 101);
+  border-radius: 15px;
+  height:305px ;
+  width:605px;
+}
