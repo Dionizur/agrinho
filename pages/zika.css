@@ -47,9 +47,20 @@ header img{
     text-align: justify
 }       
 .tabela{
+  :nth-child(1){
+    align-self: center;
+  }
+  /* display: flex;
+  flex-direction: row; */
     margin-left: 10%;
     margin-right: 10%;
-}  
+}
+@media (max-width:600px){
+  .tabela{
+    display: flex;
+    flex-direction: row;
+  }
+}
 .divisao{
     height:100px;
     width:100px;
