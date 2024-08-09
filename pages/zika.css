@@ -1,0 +1,329 @@
+body{
+    background-color: rgb(236, 252, 231);
+    background-size: 100%;
+    background-image:url(../imagens/depositphotos_57966441-stock-illustration-light-green-background-abstract-paper.jpg);
+}
+header img{
+    height: 155px;
+    width:155px;
+    margin-right: 25px;
+    margin-left: 40px;
+    
+}
+.cabecario{
+    background: linear-gradient(rgb(154, 235, 165),rgb(68, 146, 75));
+    align-items: center;
+}
+.prime{
+    background-color: rgb(75, 112, 101)  ;
+    border-radius:10px;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    height:70px;
+    display:flex
+}
+.cabecario h1{
+    font-family: Consolas;
+    font-size: 60px;
+}
+.infoimg{
+    background-color: rgb(173, 162, 162);
+    margin-top: 35px;
+    border: solid 3px rgb(75, 112, 101);
+    border-radius: 15px;
+    height:550px;
+    width:700px;
+}
+.infoimg img{
+    height:545px;
+    width:695px;
+    border-radius: 14px;
+}
+.info1{
+    margin-top: 35px;
+    margin-left: 10px ;
+    border-radius: 15px;
+    text-align: justify
+}      
+.toggle-icon {
+  cursor: pointer;
+  font-size: 20px;
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+.toggle-icon.rotate {
+  transform: rotate(180deg);
+}
+.btn-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.tabela {
+  display: flex;
+  flex-direction: column; /* Faz com que os itens sejam dispostos em coluna */
+  align-items: center; /* Centraliza os itens horizontalmente */
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.infoimg {
+  background-color: rgb(173, 162, 162);
+  margin-top: 35px;
+  border: solid 3px rgb(75, 112, 101);
+  border-radius: 15px;
+  height: 550px;
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto; 
+}
+
+@media (max-width: 600px) {
+  .tabela {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    font-size: xx-large;
+  }
+}
+
+.divisao{
+    height:100px;
+    width:100px;
+} 
+.textos{
+    color:rgb(32, 39, 58);
+    line-height: 30px;
+    font-size: 22px ;
+    font-family: 'Times New Roman', Times, serif    ;
+    font-weight: 450;
+    margin-bottom: 10px;
+}
+.collapse button{
+    height: 30px;
+    width: 270px;
+    margin:10px !important;
+}
+.cabecario_fml{
+    background: linear-gradient(rgb(154, 235, 165),rgb(68, 146, 75));
+    align-items: center;
+}
+.cabecario_fml h1{
+    font-family: Consolas;
+    font-size: 60px;
+}
+.cabecario_cafe{
+    background: linear-gradient(rgb(154, 235, 165),rgb(68, 146, 75));
+    align-items: center;
+}
+.cabecario_cafe h1{
+    font-family: Consolas;
+    font-size: 80px;
+    letter-spacing: 8px
+}
+.textos_st{
+    color:rgb(32, 39, 58);
+    line-height: 30px;
+    font-size: 22px ;
+    font-family: 'Times New Roman', Times, serif    ;
+    font-weight: 450;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.textos_st ul{
+  margin: 10px;
+  line-height: 50px;
+}
+ul {
+    list-style: none;
+  }
+  
+  .example-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+  }
+  .example-2 .icon-content {
+    margin: 0 10px;
+    position: relative;
+    padding: 0.5rem;  
+  }
+  .example-2 .icon-content a {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: #4d4d4d;
+    background-color: #fff;
+    transition: all 0.3s ease-in-out;
+  }
+  .example-2 .icon-content a:hover {
+    box-shadow: 3px 2px 45px 0px rgb(0 0 0 / 12%);
+  }
+  .example-2 .icon-content a svg {
+    position: relative;
+    z-index: 1;
+    width: 30px;
+    height: 30px;
+  }
+  .example-2 .icon-content a:hover {
+    color: white;
+  }
+  .example-2 .icon-content a .filled {
+    position: absolute;
+    top: auto;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background-color: #000;
+    transition: all 0.3s ease-in-out;
+  }
+  .example-2 .icon-content a:hover .filled {
+    height: 100%;
+  }
+  
+  .example-2 .icon-content a[data-social="linkedin"] .filled,
+  .example-2 .icon-content a[data-social="linkedin"] ~ .tooltip {
+    background-color: #0274b3;
+  }amiliar 
+  
+  .example-2 .icon-content a[data-social="github"] .filled,
+  .example-2 .icon-content a[data-social="github"] ~ .tooltip {
+    background-color: #24262a;
+  }
+  .example-2 .icon-content a[data-social="instagram"] .filled,
+  .example-2 .icon-content a[data-social="instagram"] ~ .tooltip {
+    background: linear-gradient(
+      45deg,
+      #405de6,
+      #5b51db,
+      #b33ab4,
+      #c135b4,
+      #e1306c,
+      #fd1f1f
+    );
+  }
+  .botao_lateral {
+    position: fixed;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 999;
+}
+
+.icon-content {
+    margin-bottom: 10px;
+}
+
+.icon-content a {
+    display: block;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    background-color: #333;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.icon-content a:hover {
+    background-color: #555;
+}
+
+.icon-content svg {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+.tooltip {
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.75);
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    z-index: 999;
+}
+
+.icon-content:hover .tooltip {
+    visibility: visible;
+    opacity: 1;
+}
+.infoimg_img_cafe{
+    background-color: rgb(173, 162, 162);
+    margin-top: 35px;
+    border: solid 3px rgb(75, 112, 101);
+    border-radius: 15px;
+    height:496px;
+    width:696px;
+}
+.infoimg_img_cafe img{
+    height:490px;
+    width:690px;
+    border-radius: 14px;
+}
+.footer {
+  background-color: #343a40;
+  color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+.footer a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.footer a:hover {
+  text-decoration: underline;
+}
+.textos_ft{
+  color:rgb(32, 39, 58);
+    line-height: 30px;
+    font-size: 25px ;
+    font-weight: 450;
+    margin-left: 5%;
+    margin-right: 10%;
+    margin-top: 15px;
+}
+.info_st{
+  color:rgb(32, 39, 58);
+    line-height: 30px;
+    font-size: 22px ;
+    font-family: 'Times New Roman', Times, serif    ;
+    font-weight: 450;
+    margin-bottom: 20px;
+}
+.tabela_passo img{
+  height:300px ;
+  width:500px;
+  border-radius:15px;
+  
+}
+.tabela_passo{
+  margin-left: 0%;
+  margin-right: 5%;
+}
+
+.infoimg_img_cafe2{
+  background-color: rgb(173, 162, 162);
+  margin-top: 35px;
+  border: solid 3px rgb(75, 112, 101);
+  border-radius: 15px;
+  height:305px ;
+  width:505px;
+}
